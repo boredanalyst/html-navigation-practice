@@ -1,0 +1,64 @@
+* {
+    font-family:system-ui, sans-serif;
+    transition:all ease-in-out 100ms;
+}
+
+:is(h1, h2, h3) {
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+}
+
+header {
+    display:flex;
+}
+
+header h1 {
+    margin:auto;
+
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+}
+
+article {
+    margin:auto;
+    width:70%;
+}
+
+article h1 {
+    font-size:8rem;
+    margin-bottom:0;
+}
+
+article h3 {
+    font-size:3rem;
+    margin-bottom:0;
+}
+
+nav {
+    display:flex;
+    flex-direction:column;
+    gap:1vh;
+}
+
+button {
+    flex:1;
+    outline:0;
+    border:none;
+    border-radius:1vh;
+    width:40%;
+    padding:1rem;
+    font-size:1.2rem;
+}
+
+button:hover {
+    cursor:pointer;
+    box-shadow:0.1vh 0.1vh 1vh gray;
+    transform:translateX(1vh);
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
